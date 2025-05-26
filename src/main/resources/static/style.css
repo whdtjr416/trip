@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bai+Jamjuree:wght@700&display=swap');
+
+/* ===== 기본 세팅 ===== */
+body {
+  margin: 0;
+  font-family: 'Bungee', 'Bai Jamjuree', 'Montserrat', 'Pretendard', 'Malgun Gothic', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #fffbe7 100%);
+  color: #234040;
+  min-height: 100vh;
+  min-width: 1024px;
+}
+
+/* 전체 컨테이너 공통 스타일 */
+.container,
+.banner-inner,
+.services,
+.products,
+#contact .contact-form {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+}
+
+/* ===== 헤더 & 네비 ===== */
+header {
+  background: rgba(255,255,255,0.97);
+  box-shadow: 0 2px 18px rgba(0, 180, 180, 0.07);
+  border-bottom: 2px solid #e0e7ef;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-width: 1024px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 2em;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #00bfae 60%, #ffb16a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo span {
+  font-size: 0.55em;
+  color: #ffb16a;
+  font-weight: 700;
+  margin-left: 6px;
+  letter-spacing: 0;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: #234040;
+  font-weight: 600;
+  font-size: 1.07em;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 2.5px solid transparent;
+  transition: color 0.17s, border-bottom 0.17s;
+  letter-spacing: 0.01em;
+}
+
+nav a:hover {
+  color: #00bfae;
+  border-bottom: 2.5px solid #ffb16a;
+}
+
+/* ===== 배너 ===== */
+.banner {
+  background: linear-gradient(120deg, #00bfae 0%, #ffe066 40%, #ffb16a 100%);
+  box-shadow: 0 10px 44px rgba(0,191,174,0.10);
+  border-radius: 0 0 48px 48px;
+  margin-bottom: 42px;
+  position: relative;
+  overflow: hidden;
+  min-width: 1024px;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: -30px;
+  width: 180px;
+  height: 180px;
+  background: repeating-radial-gradient(circle at 60% 60%, #ffe066bb 0, #ffe06699 30px, transparent 40px, transparent 100px);
+  opacity: 0.6;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  right: -60px;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  background: repeating-conic-gradient(from 45deg, #ffb16a66 0 15deg, #00bfae33 0 30deg);
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 340px;
+  padding: 48px 32px;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-text {
+  flex: 1 1 400px;
+  color: #fff;
+  text-shadow: 0 4px 24px #00bfae33;
+}
+
+.banner-text h1 {
+  font-family: 'Bungee', 'Bai Jamjuree', 'Montserrat', 'Pretendard', sans-serif;
+  font-size: 2.8em;
+  font-weight: 900;
+  line-height: 1.18;
+  margin-bottom: 20px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  position: relative;
+  padding: 0.15em 0.11em;
+  text-align: left;
+  text-shadow:
+    2px 3px 0 #00bfae,
+    -2px -2px 0 #ffb16a,
+    0 0 12px #fffbe799,
+    0 2px 24px #00bfae33;
+  opacity: 0;
+  transform: scale(0.95) rotate(-2deg) translateY(28px);
+  animation: bannerBounceIn 1.2s cubic-bezier(.6,-0.28,.74,1.29) 0.1s forwards;
+}
+
+@keyframes bannerBounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) rotate(-2deg) translateY(28px);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04) rotate(3deg) translateY(-10px);
+  }
+  75% {
+    transform: scale(0.98) rotate(-1deg) translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg) translateY(0);
+  }
+}
+
+.banner-text .highlight {
+  display: inline-block;
+  position: relative;
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #fff;
+  z-index: 1;
+  padding: 0 0.15em;
+  background: linear-gradient(100deg, #ffe066 60%, #00bfae 100%);
+  border-radius: 0.27em 0.33em 0.33em 0.27em/0.4em 0.6em 0.4em 0.6em;
+  box-shadow: 0 4px 24px #ffb16a55;
+  animation: highlightWave 1.2s cubic-bezier(.6,.2,.6,1.2) 0.9s 1 both;
+}
+
+@keyframes highlightWave {
+  0% {
+    background-position-x: 100%;
+    filter: blur(2px) brightness(1.2);
+    opacity: 0.3;
+  }
+  60% {
+    background-position-x: 60%;
+    filter: blur(0.7px) brightness(1.1);
+    opacity: 1;
+  }
+  100% {
+    background-position-x: 0%;
+    filter: blur(0) brightness(1);
+    opacity: 1;
+  }
+}
+
+.banner-text p {
+  font-family: 'Bai Jamjuree', 'Montserrat', 'Pretendard', sans-serif;
+  font-size: 1.18em;
+  margin-bottom: 32px;
+  line-height: 1.7;
+  text-shadow: 0 2px 16px #00bfae22;
+  color: #fffde3;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.btn-main {
+  background: linear-gradient(90deg, #ffe066 60%, #ffb16a 100%);
+  color: #068c84;
+  font-weight: 900;
+  border: none;
+  border-radius: 14px;
+  padding: 16px 44px;
+  font-size: 1.13em;
+  box-shadow: 0 4px 18px rgba(255, 224, 102, 0.13);
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  outline: 2.5px solid #ffe06688;
+  outline-offset: 3px;
+}
+
+.btn-main:hover {
+  background: linear-gradient(90deg, #ffb16a 60%, #00bfae 100%);
+  color: #ffe066;
+  box-shadow: 0 10px 26px rgba(0,191,174,0.13);
+  transform: translateY(-2px) scale(1.03) rotate(-2deg);
+  outline: 2.5px solid #00bfae88;
+}
+
+.banner-img {
+  flex: 1 1 320px;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img img {
+  border-radius: 22px 60px 40px 18px/40px 18px 60px 22px;
+  box-shadow: 0 8px 38px rgba(0,191,174,0.14), 0 0 0 6px #ffe06655;
+  width: 100%;
+  max-width: 340px;
+  border: 4px solid #ffe06677;
+  background: linear-gradient(120deg, #ffe06633 40%, #00bfae33 100%);
+}
+
+/* ===== 서비스 섹션 ===== */
+#services {
+  padding: 60px 0;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: 'Bungee', 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin: 0 0 38px 0;
+  letter-spacing: 0.03em;
+  color: #00bfae;
+  text-shadow: 0 2px 12px rgba(0,191,174,0.06);
+}
+
+.services {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: linear-gradient(135deg, #fffbe7 60%, #e0f7fa 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,191,174,0.07), 0 2px 8px #ffe06622;
+  padding: 38px 22px 32px 22px;
+  min-width: 220px;
+  max-width: 260px;
+  flex: 1 1 220px;
+  text-align: center;
+  border: 2px solid #fff2c1;
+  transition: box-shadow 0.17s, border 0.17s, transform 0.17s;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  border: 2px solid #00bfae;
+  box-shadow: 0 10px 36px rgba(0,191,174,0.13);
+  transform: translateY(-4px) scale(1.04);
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 17px auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00bfae 70%, #ffe066 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.2em;
+  box-shadow: 0 2px 12px rgba(0,191,174,0.13);
+}
+
+.service-title {
+  font-family: 'Bai Jamjuree', 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.18em;
+  margin-bottom: 12px;
+  color: #068c84;
+}
+
+.service-desc {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.65;
+  min-height: 50px;
+}
+
+/* ===== 상품 섹션 ===== */
+#products {
+  padding: 60px 0;
+}
+
+#products h2 {
+  text-align: center;
+  font-size: 1.45em;
+  font-family: 'Bungee', 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin: 0 0 38px 0;
+  letter-spacing: 0.03em;
+  color: #ffb16a;
+  text-shadow: 0 2px 12px #ffb16a33;
+}
+
+.products {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 22px rgba(255, 177, 106, 0.09);
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 300px;
+  flex: 1 1 240px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.17s, transform 0.17s;
+  border: 2px solid #ffe06633;
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 36px rgba(255,177,106,0.16);
+  transform: translateY(-4px) scale(1.03);
+  border: 2px solid #ffb16a;
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #e0f7fa;
+}
+
+.product-info {
+  padding: 24px 18px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.product-title {
+  font-family: 'Bai Jamjuree', 'Montserrat', sans-serif;
+  font-size: 1.13em;
+  font-weight: 800;
+  color: #00bfae;
+}
+
+.product-desc {
+  color: #555;
+  font-size: 1em;
+  min-height: 38px;
+}
+
+.product-price {
+  color: #ffb16a;
+  font-weight: 900;
+  font-size: 1.07em;
+  margin-top: 8px;
+}
+
+/* ===== 문의 폼 ===== */
+#contact {
+  padding: 60px 0;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Bungee', 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin: 0 0 28px 0;
+  color: #00bfae;
+  letter-spacing: 0.02em;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: #fffbe7;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #ffe06622;
+  padding: 40px;
+  border: 2px solid #ffe06666;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1.5px solid #e0f7fa;
+  border-radius: 8px;
+  padding: 13px 14px;
+  font-size: 1em;
+  font-family: inherit;
+  background: #fff;
+  resize: none;
+  transition: border 0.17s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1.5px solid #00bfae;
+  outline: none;
+}
+
+.contact-form button {
+  background: linear-gradient(90deg, #00bfae 60%, #ffb16a 100%);
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 0;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 12px #00bfae33;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #ffb16a 60%, #00bfae 100%);
+  color: #ffe066;
+}
+
+/* ===== 푸터 ===== */
+footer {
+  background: linear-gradient(90deg, #00bfae 60%, #ffe066 100%);
+  color: #fff;
+  text-align: center;
+  padding: 36px 0;
+  margin-top: 60px;
+  border-radius: 28px 28px 0 0;
+  box-shadow: 0 -2px 18px #00bfae13;
+  min-width: 1024px;
+}
+
+.footer-logo {
+  font-size: 1.25em;
+  font-family: 'Bungee', 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-info {
+  font-size: 0.98em;
+  color: #fffde3;
+}
+
+/* ===== 반응형 (1024px 이하 스크롤 처리) ===== */
+@media (max-width: 1024px) {
+  body {
+    overflow-x: auto;
+  }
+  
+  .container,
+  .banner-inner,
+  .services,
+  .products {
+    width: 1024px;
+  }
+}
