@@ -1388,3 +1388,909 @@
 2025-05-26T15:50:02.033+09:00  INFO 1884 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-05-26T15:50:02.033+09:00  INFO 1884 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-05-26T15:50:02.035+09:00  INFO 1884 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-26T16:03:02.770+09:00  INFO 1884 --- [T_Board] [RMI TCP Connection(22)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:03:02.772+09:00  INFO 1884 --- [T_Board] [RMI TCP Connection(22)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:03:02.774+09:00  INFO 1884 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:03:02.778+09:00  INFO 1884 --- [T_Board] [RMI TCP Connection(22)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:03:02.779+09:00  INFO 1884 --- [T_Board] [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:03:02.779+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:03:02.780+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 1ms} 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:03:02.782+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 1ms} 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.783+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:03:02.784+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:03:02.785+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:03:02.786+09:00  INFO 1884 --- [T_Board] [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:03:04.021+09:00  INFO 16344 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 16344 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:03:04.022+09:00 DEBUG 16344 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:03:04.022+09:00  INFO 16344 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:03:04.367+09:00  INFO 16344 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:03:04.377+09:00  INFO 16344 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:03:04.431+09:00  WARN 16344 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:03:04.617+09:00  INFO 16344 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:03:04.627+09:00  INFO 16344 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:03:04.627+09:00  INFO 16344 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:03:04.659+09:00  INFO 16344 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:03:04.659+09:00  INFO 16344 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2025-05-26T16:03:04.775+09:00  INFO 16344 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:03:04.802+09:00  INFO 16344 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:03:04.819+09:00  INFO 16344 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:03:04.977+09:00  INFO 16344 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:03:04.994+09:00  INFO 16344 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:03:05.203+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 198ms} 
+2025-05-26T16:03:05.204+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:03:05.204+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:03:05.205+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.205+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.206+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:03:05.206+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:03:05.207+09:00  INFO 16344 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@59371066
+2025-05-26T16:03:05.208+09:00  INFO 16344 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:03:05.211+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6cc8da1c
+2025-05-26T16:03:05.241+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:03:05.241+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3cf8a235
+2025-05-26T16:03:05.243+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:03:05.245+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:03:05.245+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@fd87c22
+2025-05-26T16:03:05.248+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:03:05.248+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:03:05.248+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:03:05.248+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:03:05.255+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:03:05.256+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:03:05.256+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:03:05.259+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@fe08eaf
+2025-05-26T16:03:05.259+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@5ae66c98
+2025-05-26T16:03:05.260+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@4ab455e2
+2025-05-26T16:03:05.262+09:00  INFO 16344 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:03:05.264+09:00  INFO 16344 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:03:05.320+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 11ms} 
+2025-05-26T16:03:05.322+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:03:05.322+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.322+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.367+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 11ms} 
+2025-05-26T16:03:05.367+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:03:05.368+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.368+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.413+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.413+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:03:05.413+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.413+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.451+09:00  INFO 16344 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:03:05.454+09:00  INFO 16344 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:03:05.460+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.460+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:03:05.461+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.461+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.480+09:00  WARN 16344 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:03:05.498+09:00  INFO 16344 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:03:05.505+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 9ms} 
+2025-05-26T16:03:05.507+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:03:05.507+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.507+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.552+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.552+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:03:05.553+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.553+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.600+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.600+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:03:05.600+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.600+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.646+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.646+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:03:05.646+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.646+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.694+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 10ms} 
+2025-05-26T16:03:05.695+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:03:05.695+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:03:05.695+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:03:05.766+09:00  INFO 16344 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:03:05.770+09:00  INFO 16344 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.981 seconds (process running for 2.327)
+2025-05-26T16:03:06.605+09:00  INFO 16344 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:03:06.606+09:00  INFO 16344 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:03:06.607+09:00  INFO 16344 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-26T16:04:33.733+09:00  INFO 16344 --- [T_Board] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:04:33.736+09:00  INFO 16344 --- [T_Board] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:04:33.739+09:00  INFO 16344 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:04:33.741+09:00  INFO 16344 --- [T_Board] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:04:33.742+09:00  INFO 16344 --- [T_Board] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:04:33.744+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 1ms} 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:04:33.745+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 1ms} 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:04:33.746+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.747+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:04:33.749+09:00  INFO 16344 --- [T_Board] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:04:35.001+09:00  INFO 13780 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 13780 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:04:35.002+09:00 DEBUG 13780 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:04:35.003+09:00  INFO 13780 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:04:35.339+09:00  INFO 13780 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:04:35.348+09:00  INFO 13780 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:04:35.403+09:00  WARN 13780 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:04:35.589+09:00  INFO 13780 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:04:35.598+09:00  INFO 13780 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:04:35.599+09:00  INFO 13780 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:04:35.628+09:00  INFO 13780 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:04:35.629+09:00  INFO 13780 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2025-05-26T16:04:35.741+09:00  INFO 13780 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:04:35.767+09:00  INFO 13780 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:04:35.784+09:00  INFO 13780 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:04:35.930+09:00  INFO 13780 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:04:35.947+09:00  INFO 13780 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:04:36.148+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 188ms} 
+2025-05-26T16:04:36.149+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:04:36.149+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:04:36.149+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.149+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.150+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:04:36.150+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:04:36.151+09:00  INFO 13780 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@402a69f
+2025-05-26T16:04:36.152+09:00  INFO 13780 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:04:36.155+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@48b3b1b8
+2025-05-26T16:04:36.185+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:04:36.185+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@225e09f0
+2025-05-26T16:04:36.187+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:04:36.189+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:04:36.189+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7bce9ce4
+2025-05-26T16:04:36.191+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:04:36.191+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:04:36.191+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:04:36.191+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:04:36.198+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:04:36.199+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:04:36.199+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:04:36.201+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6630dd28
+2025-05-26T16:04:36.202+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@f49e81a
+2025-05-26T16:04:36.202+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@1aaf46e6
+2025-05-26T16:04:36.206+09:00  INFO 13780 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:04:36.207+09:00  INFO 13780 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:04:36.275+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 14ms} 
+2025-05-26T16:04:36.275+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:04:36.275+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.275+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.318+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 11ms} 
+2025-05-26T16:04:36.318+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:04:36.318+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.318+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.365+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 11ms} 
+2025-05-26T16:04:36.365+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:04:36.366+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.366+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.384+09:00  INFO 13780 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:04:36.386+09:00  INFO 13780 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:04:36.414+09:00  WARN 13780 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:04:36.414+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 11ms} 
+2025-05-26T16:04:36.414+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:04:36.414+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.415+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.429+09:00  INFO 13780 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:04:36.460+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 11ms} 
+2025-05-26T16:04:36.460+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:04:36.461+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.461+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.506+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 11ms} 
+2025-05-26T16:04:36.506+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:04:36.506+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.506+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.551+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 9ms} 
+2025-05-26T16:04:36.551+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:04:36.551+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.552+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.597+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 8ms} 
+2025-05-26T16:04:36.598+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:04:36.598+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.598+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.645+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 9ms} 
+2025-05-26T16:04:36.645+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:04:36.646+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:04:36.646+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:04:36.686+09:00  INFO 13780 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:04:36.690+09:00  INFO 13780 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.923 seconds (process running for 2.283)
+2025-05-26T16:04:39.511+09:00  INFO 13780 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:04:39.511+09:00  INFO 13780 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:04:39.512+09:00  INFO 13780 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-26T16:10:00.852+09:00  INFO 13780 --- [T_Board] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:10:00.856+09:00  INFO 13780 --- [T_Board] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:10:00.858+09:00  INFO 13780 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:10:00.861+09:00  INFO 13780 --- [T_Board] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:10:00.862+09:00  INFO 13780 --- [T_Board] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:10:00.863+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 2ms} 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:10:00.865+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:10:00.866+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 1ms} 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:10:00.867+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 1ms} 
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.868+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:10:00.869+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.870+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:10:00.870+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:10:00.870+09:00  INFO 13780 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:10:00.870+09:00  INFO 13780 --- [T_Board] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:10:02.115+09:00  INFO 4540 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 4540 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:10:02.117+09:00 DEBUG 4540 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:10:02.117+09:00  INFO 4540 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:10:02.457+09:00  INFO 4540 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:10:02.465+09:00  INFO 4540 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:10:02.521+09:00  WARN 4540 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:10:02.701+09:00  INFO 4540 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:10:02.710+09:00  INFO 4540 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:10:02.710+09:00  INFO 4540 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:10:02.740+09:00  INFO 4540 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:10:02.741+09:00  INFO 4540 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 601 ms
+2025-05-26T16:10:02.855+09:00  INFO 4540 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:10:02.882+09:00  INFO 4540 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:10:02.899+09:00  INFO 4540 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:10:03.049+09:00  INFO 4540 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:10:03.065+09:00  INFO 4540 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:10:03.276+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 199ms} 
+2025-05-26T16:10:03.277+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:10:03.277+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:10:03.278+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.278+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.278+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:10:03.279+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:10:03.279+09:00  INFO 4540 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@433d93e7
+2025-05-26T16:10:03.280+09:00  INFO 4540 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:10:03.283+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@4d2f9e3c
+2025-05-26T16:10:03.315+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:10:03.315+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6591f8ea
+2025-05-26T16:10:03.317+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:10:03.319+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:10:03.319+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7769d9b6
+2025-05-26T16:10:03.322+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:10:03.322+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:10:03.322+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:10:03.322+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:10:03.329+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:10:03.329+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:10:03.330+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:10:03.331+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@7b1c501d
+2025-05-26T16:10:03.332+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@4ab455e2
+2025-05-26T16:10:03.333+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@4a4ff5ed
+2025-05-26T16:10:03.336+09:00  INFO 4540 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:10:03.338+09:00  INFO 4540 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:10:03.403+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 10ms} 
+2025-05-26T16:10:03.404+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:10:03.404+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.404+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.453+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 14ms} 
+2025-05-26T16:10:03.453+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:10:03.453+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.453+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.494+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 9ms} 
+2025-05-26T16:10:03.495+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:10:03.495+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.495+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.516+09:00  INFO 4540 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:10:03.520+09:00  INFO 4540 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:10:03.542+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 9ms} 
+2025-05-26T16:10:03.542+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:10:03.542+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.542+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.545+09:00  WARN 4540 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:10:03.561+09:00  INFO 4540 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:10:03.588+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 9ms} 
+2025-05-26T16:10:03.588+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:10:03.589+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.589+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.636+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 10ms} 
+2025-05-26T16:10:03.636+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:10:03.636+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.636+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.684+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 10ms} 
+2025-05-26T16:10:03.684+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:10:03.685+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.685+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.731+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 9ms} 
+2025-05-26T16:10:03.732+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:10:03.732+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.732+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.778+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 9ms} 
+2025-05-26T16:10:03.778+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:10:03.778+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:10:03.778+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:10:03.815+09:00  INFO 4540 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:10:03.821+09:00  INFO 4540 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.942 seconds (process running for 2.291)
+2025-05-26T16:10:05.411+09:00  INFO 4540 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:10:05.412+09:00  INFO 4540 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:10:05.413+09:00  INFO 4540 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-26T16:11:36.185+09:00  INFO 4540 --- [T_Board] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:11:36.187+09:00  INFO 4540 --- [T_Board] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:11:36.189+09:00  INFO 4540 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:11:36.192+09:00  INFO 4540 --- [T_Board] [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:11:36.193+09:00  INFO 4540 --- [T_Board] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:11:36.194+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:11:36.195+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 1ms} 
+2025-05-26T16:11:36.195+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:11:36.195+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.195+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:11:36.195+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 1ms} 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:11:36.196+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 1ms} 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:11:36.197+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 1ms} 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.198+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:11:36.199+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.200+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:11:36.200+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:11:36.200+09:00  INFO 4540 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:11:36.200+09:00  INFO 4540 --- [T_Board] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:11:37.269+09:00  INFO 5924 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 5924 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:11:37.270+09:00 DEBUG 5924 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:11:37.270+09:00  INFO 5924 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:11:37.594+09:00  INFO 5924 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:11:37.603+09:00  INFO 5924 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:11:37.657+09:00  WARN 5924 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:11:37.841+09:00  INFO 5924 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:11:37.849+09:00  INFO 5924 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:11:37.849+09:00  INFO 5924 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:11:37.879+09:00  INFO 5924 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:11:37.879+09:00  INFO 5924 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2025-05-26T16:11:37.992+09:00  INFO 5924 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:11:38.018+09:00  INFO 5924 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:11:38.034+09:00  INFO 5924 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:11:38.185+09:00  INFO 5924 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:11:38.200+09:00  INFO 5924 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:11:38.404+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 191ms} 
+2025-05-26T16:11:38.404+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:11:38.404+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:11:38.405+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.405+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.406+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:11:38.406+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:11:38.407+09:00  INFO 5924 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@336e3be2
+2025-05-26T16:11:38.408+09:00  INFO 5924 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:11:38.410+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@652b3733
+2025-05-26T16:11:38.440+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:11:38.440+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@136fece2
+2025-05-26T16:11:38.443+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:11:38.445+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:11:38.445+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7e1a9173
+2025-05-26T16:11:38.446+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:11:38.448+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:11:38.448+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:11:38.448+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:11:38.454+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:11:38.454+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:11:38.455+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:11:38.456+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@5a7a6d34
+2025-05-26T16:11:38.457+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@5ddb302
+2025-05-26T16:11:38.457+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@51813065
+2025-05-26T16:11:38.460+09:00  INFO 5924 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:11:38.462+09:00  INFO 5924 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:11:38.521+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 11ms} 
+2025-05-26T16:11:38.521+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:11:38.521+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.521+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.568+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 10ms} 
+2025-05-26T16:11:38.568+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:11:38.569+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.569+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.615+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 10ms} 
+2025-05-26T16:11:38.615+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:11:38.616+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.616+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.636+09:00  INFO 5924 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:11:38.639+09:00  INFO 5924 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:11:38.663+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 10ms} 
+2025-05-26T16:11:38.663+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:11:38.663+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.663+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.665+09:00  WARN 5924 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:11:38.681+09:00  INFO 5924 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:11:38.710+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 10ms} 
+2025-05-26T16:11:38.710+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:11:38.710+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.710+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.755+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 9ms} 
+2025-05-26T16:11:38.755+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:11:38.756+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.756+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.801+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 8ms} 
+2025-05-26T16:11:38.801+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:11:38.803+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.803+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.849+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 8ms} 
+2025-05-26T16:11:38.849+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:11:38.849+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.850+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.896+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 9ms} 
+2025-05-26T16:11:38.896+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:11:38.896+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:11:38.896+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:11:38.934+09:00  INFO 5924 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:11:38.939+09:00  INFO 5924 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.903 seconds (process running for 2.248)
+2025-05-26T16:11:39.800+09:00  INFO 5924 --- [T_Board] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:11:39.801+09:00  INFO 5924 --- [T_Board] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:11:39.802+09:00  INFO 5924 --- [T_Board] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-26T16:12:17.020+09:00  INFO 5924 --- [T_Board] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:12:17.022+09:00  INFO 5924 --- [T_Board] [RMI TCP Connection(9)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:12:17.024+09:00  INFO 5924 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:12:17.027+09:00  INFO 5924 --- [T_Board] [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:12:17.028+09:00  INFO 5924 --- [T_Board] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:12:17.029+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:12:17.030+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 1ms} 
+2025-05-26T16:12:17.030+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:12:17.030+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.030+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:12:17.030+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 1ms} 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.031+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:12:17.032+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:12:17.033+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 1ms} 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:12:17.034+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:12:17.035+09:00  INFO 5924 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:12:17.035+09:00  INFO 5924 --- [T_Board] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:12:18.264+09:00  INFO 16432 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 16432 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:12:18.265+09:00 DEBUG 16432 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:12:18.266+09:00  INFO 16432 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:12:18.612+09:00  INFO 16432 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:12:18.621+09:00  INFO 16432 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:12:18.677+09:00  WARN 16432 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:12:18.859+09:00  INFO 16432 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:12:18.868+09:00  INFO 16432 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:12:18.869+09:00  INFO 16432 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:12:18.898+09:00  INFO 16432 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:12:18.898+09:00  INFO 16432 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 610 ms
+2025-05-26T16:12:19.017+09:00  INFO 16432 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:12:19.041+09:00  INFO 16432 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:12:19.059+09:00  INFO 16432 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:12:19.212+09:00  INFO 16432 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:12:19.230+09:00  INFO 16432 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:12:19.440+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 199ms} 
+2025-05-26T16:12:19.441+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:12:19.441+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:12:19.441+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.443+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.443+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:12:19.443+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:12:19.444+09:00  INFO 16432 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@63e70bf9
+2025-05-26T16:12:19.445+09:00  INFO 16432 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:12:19.447+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@95cecc5
+2025-05-26T16:12:19.477+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:12:19.477+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@60ae7cf2
+2025-05-26T16:12:19.480+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:12:19.482+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:12:19.483+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@37806be6
+2025-05-26T16:12:19.485+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:12:19.485+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:12:19.485+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:12:19.485+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:12:19.492+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:12:19.494+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:12:19.494+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:12:19.496+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@65f5cae3
+2025-05-26T16:12:19.496+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@6533629
+2025-05-26T16:12:19.497+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@5ae66c98
+2025-05-26T16:12:19.499+09:00  INFO 16432 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:12:19.501+09:00  INFO 16432 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:12:19.565+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 11ms} 
+2025-05-26T16:12:19.565+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:12:19.565+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.565+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.614+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 14ms} 
+2025-05-26T16:12:19.614+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:12:19.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.656+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 10ms} 
+2025-05-26T16:12:19.656+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:12:19.656+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.657+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.683+09:00  INFO 16432 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:12:19.686+09:00  INFO 16432 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:12:19.702+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 9ms} 
+2025-05-26T16:12:19.702+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:12:19.702+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.702+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.711+09:00  WARN 16432 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:12:19.727+09:00  INFO 16432 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:12:19.749+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 10ms} 
+2025-05-26T16:12:19.750+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:12:19.750+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.750+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.795+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 9ms} 
+2025-05-26T16:12:19.797+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:12:19.797+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.797+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.842+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 9ms} 
+2025-05-26T16:12:19.842+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:12:19.843+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.843+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.889+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 9ms} 
+2025-05-26T16:12:19.889+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:12:19.889+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.889+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.936+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 9ms} 
+2025-05-26T16:12:19.936+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:12:19.936+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:12:19.936+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:12:19.992+09:00  INFO 16432 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:12:19.996+09:00  INFO 16432 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.967 seconds (process running for 2.31)
+2025-05-26T16:12:20.710+09:00  INFO 16432 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:12:20.711+09:00  INFO 16432 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:12:20.711+09:00  INFO 16432 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-26T16:24:52.603+09:00  INFO 16432 --- [T_Board] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-26T16:24:52.606+09:00  INFO 16432 --- [T_Board] [RMI TCP Connection(21)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:24:52.609+09:00  INFO 16432 --- [T_Board] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:24:52.611+09:00  INFO 16432 --- [T_Board] [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:24:52.613+09:00  INFO 16432 --- [T_Board] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T16:24:52.614+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.isClosed() returned false
+2025-05-26T16:24:52.615+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 1ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.isClosed() returned false
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.isClosed() returned false
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.616+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.isClosed() returned false
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.isClosed() returned false
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2025-05-26T16:24:52.617+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.isClosed() returned false
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 1ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.isClosed() returned false
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.isClosed() returned false
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.618+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.isClosed() returned false
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.isClosed() returned false
+2025-05-26T16:24:52.619+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.620+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:24:52.620+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 0ms} 
+2025-05-26T16:24:52.620+09:00  INFO 16432 --- [T_Board] [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2025-05-26T16:24:52.620+09:00  INFO 16432 --- [T_Board] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T16:24:53.861+09:00  INFO 8620 --- [T_Board] [main] com.study.springboot.TripApplication     : Starting TripApplication using Java 21.0.6 with PID 8620 (C:\springboot\trip\bin\main started by user in C:\springboot\trip)
+2025-05-26T16:24:53.864+09:00 DEBUG 8620 --- [T_Board] [main] com.study.springboot.TripApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-26T16:24:53.864+09:00  INFO 8620 --- [T_Board] [main] com.study.springboot.TripApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:24:54.182+09:00  INFO 8620 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:24:54.191+09:00  INFO 8620 --- [T_Board] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-26T16:24:54.243+09:00  WARN 8620 --- [T_Board] [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.study.springboot]' package. Please check your configuration.
+2025-05-26T16:24:54.427+09:00  INFO 8620 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:24:54.436+09:00  INFO 8620 --- [T_Board] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:24:54.437+09:00  INFO 8620 --- [T_Board] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-26T16:24:54.467+09:00  INFO 8620 --- [T_Board] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:24:54.467+09:00  INFO 8620 --- [T_Board] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2025-05-26T16:24:54.583+09:00  INFO 8620 --- [T_Board] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:24:54.608+09:00  INFO 8620 --- [T_Board] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-26T16:24:54.625+09:00  INFO 8620 --- [T_Board] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:24:54.778+09:00  INFO 8620 --- [T_Board] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:24:54.794+09:00  INFO 8620 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T16:24:55.002+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection opened. {executed in 196ms} 
+2025-05-26T16:24:55.002+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2025-05-26T16:24:55.003+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2025-05-26T16:24:55.003+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.003+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.004+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2025-05-26T16:24:55.004+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2025-05-26T16:24:55.005+09:00  INFO 8620 --- [T_Board] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@59371066
+2025-05-26T16:24:55.006+09:00  INFO 8620 --- [T_Board] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T16:24:55.009+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6cc8da1c
+2025-05-26T16:24:55.037+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2025-05-26T16:24:55.038+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3cf8a235
+2025-05-26T16:24:55.039+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. SELECT @@character_set_database, @@sql_mode  {executed in 1 ms}
+2025-05-26T16:24:55.043+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.new ResultSet returned 
+2025-05-26T16:24:55.043+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@fd87c22
+2025-05-26T16:24:55.045+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.next() returned true
+2025-05-26T16:24:55.045+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(1) returned utf8mb4
+2025-05-26T16:24:55.045+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-05-26T16:24:55.045+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2025-05-26T16:24:55.051+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned insight
+2025-05-26T16:24:55.052+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:24:55.052+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2025-05-26T16:24:55.054+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@fe08eaf
+2025-05-26T16:24:55.055+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@5ae66c98
+2025-05-26T16:24:55.055+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@4ab455e2
+2025-05-26T16:24:55.059+09:00  INFO 8620 --- [T_Board] [main] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2025-05-26T16:24:55.060+09:00  INFO 8620 --- [T_Board] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.28
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:24:55.129+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 10ms} 
+2025-05-26T16:24:55.129+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2025-05-26T16:24:55.129+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.129+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.176+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 12ms} 
+2025-05-26T16:24:55.176+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2025-05-26T16:24:55.176+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.177+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.221+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 10ms} 
+2025-05-26T16:24:55.223+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2025-05-26T16:24:55.223+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.223+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.239+09:00  INFO 8620 --- [T_Board] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:24:55.241+09:00  INFO 8620 --- [T_Board] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:24:55.268+09:00  WARN 8620 --- [T_Board] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:24:55.269+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 11ms} 
+2025-05-26T16:24:55.269+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2025-05-26T16:24:55.269+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.269+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.285+09:00  INFO 8620 --- [T_Board] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-26T16:24:55.315+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 9ms} 
+2025-05-26T16:24:55.317+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2025-05-26T16:24:55.317+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.317+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.364+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 11ms} 
+2025-05-26T16:24:55.364+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2025-05-26T16:24:55.364+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.364+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.409+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 9ms} 
+2025-05-26T16:24:55.410+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2025-05-26T16:24:55.410+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.410+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.457+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 9ms} 
+2025-05-26T16:24:55.457+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2025-05-26T16:24:55.457+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.457+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.503+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 9ms} 
+2025-05-26T16:24:55.503+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2025-05-26T16:24:55.503+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2025-05-26T16:24:55.503+09:00  INFO 8620 --- [T_Board] [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2025-05-26T16:24:55.547+09:00  INFO 8620 --- [T_Board] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:24:55.551+09:00  INFO 8620 --- [T_Board] [main] com.study.springboot.TripApplication     : Started TripApplication in 1.918 seconds (process running for 2.265)
+2025-05-26T16:24:57.218+09:00  INFO 8620 --- [T_Board] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:24:57.219+09:00  INFO 8620 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:24:57.220+09:00  INFO 8620 --- [T_Board] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

@@ -476,6 +476,242 @@ nav a:hover {
   color: #ffe066;
 }
 
+/* 문의 완료 "확인" 버튼 스타일 */
+.contact-form-btn {
+  background: linear-gradient(90deg, #00bfae 60%, #ffb16a 100%);
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 0;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 12px #00bfae33;
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+.contact-form-btn:hover {
+  background: linear-gradient(90deg, #ffb16a 60%, #00bfae 100%);
+  color: #ffe066;
+}
+
+
+/* ===== 상세페이지(예: bali-detail) 전용 ===== */
+/* 전체 배경 및 폰트 설정 */
+body {
+    font-family: 'Noto Sans KR', '맑은 고딕', Arial, sans-serif;
+    background: #f8fafc;
+    color: #23272f;
+    margin: 0;
+    padding: 0;
+}
+
+/* 상세페이지 전체 박스 */
+.product-detail {
+    max-width: 700px;
+    margin: 40px auto 60px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #0002;
+    padding: 40px 32px 32px 32px;
+    box-sizing: border-box;
+}
+
+/* 제목 */
+.product-detail h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #00897b;
+    letter-spacing: -1px;
+    text-align: center;
+    text-shadow: 0 2px 8px #00bfae22;
+}
+
+/* 대표 이미지 */
+.detail-img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 18px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #00bfae22;
+}
+
+/* 정보 리스트 */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px 0;
+}
+
+ul li {
+    font-size: 1.07em;
+    margin-bottom: 8px;
+    padding-left: 22px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    color: #00bfae;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 추천 포인트 등 강조 */
+strong {
+    color: #00897b;
+}
+
+/* 구분선 */
+.product-detail hr {
+    border: 0;
+    border-top: 1.5px solid #e0e7ef;
+    margin: 30px 0;
+}
+
+/* 표 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0 22px 0;
+    background: #f5f7fa;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 10px;
+    text-align: left;
+}
+
+th {
+    background: #e0f2f1;
+    color: #00695c;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+td {
+    border-bottom: 1px solid #e0e7ef;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* 소제목 */
+.product-detail h2 {
+    font-size: 1.16em;
+    color: #009688;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    border-left: 4px solid #00bfae;
+    padding-left: 10px;
+    letter-spacing: -0.5px;
+}
+
+/* 요약, 설명 등 본문 */
+.summary, .description, .review-text {
+    font-size: 1.08em;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* 후기 섹션 */
+.review-section {
+    background: linear-gradient(90deg, #e0f7fa 60%, #fffde7 100%);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 26px;
+    box-shadow: 0 1px 8px #00bfae11;
+}
+
+.review {
+    margin-bottom: 14px;
+}
+
+.review-author {
+    font-size: 0.93em;
+    color: #009688;
+    margin-left: 4px;
+}
+
+/* FAQ 섹션 */
+.faq-section {
+    margin-bottom: 24px;
+}
+
+.faq-q {
+    font-weight: 600;
+    margin: 10px 0 2px 0;
+    color: #00695c;
+}
+
+.faq-a {
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 1em;
+}
+
+/* CTA 버튼 */
+.contact-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #00bfae 60%, #00c3a5 100%);
+    color: #fff;
+    padding: 14px 36px;
+    font-size: 1.15em;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+    box-shadow: 0 2px 12px #00bfae22;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(90deg, #00c3a5 60%, #00bfae 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+.notice {
+    font-size: 0.98em;
+    color: #888;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* 지도 iframe 반응형 */
+iframe {
+    border-radius: 8px;
+    margin-bottom: 18px;
+    border: none;
+    width: 100%;
+    min-height: 220px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 800px) {
+    .product-detail {
+        padding: 18px 6vw 24px 6vw;
+    }
+    .detail-img {
+        max-width: 100%;
+    }
+    table, th, td {
+        font-size: 0.98em;
+    }
+}
+
+
 /* ===== 푸터 ===== */
 footer {
   background: linear-gradient(90deg, #00bfae 60%, #ffe066 100%);
@@ -514,4 +750,8 @@ footer {
   .products {
     width: 1024px;
   }
+  .detail-hero { padding-left: 20px; }
+  .detail-content { padding: 18px; }
+  .detail-gallery { gap: 12px; }
+  .detail-gallery img { width: 140px; height: 90px; }
 }

@@ -98,14 +98,31 @@
 
 
     <section id="contact">
-        <h2>상담/예약 문의</h2>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="이름" required>
-            <input type="text" name="phone" placeholder="연락처" required>
-            <textarea name="message" rows="4" placeholder="문의 내용을 입력하세요" required></textarea>
-            <button type="submit">문의하기</button>
-        </form>
-    </section>
+    <h2>상담/예약 문의</h2>
+    <form class="contact-form" id="contactForm">
+        <input type="text" name="name" placeholder="이름" required>
+        <input type="text" name="phone" placeholder="연락처" required>
+        <textarea name="message" rows="4" placeholder="문의 내용을 입력하세요" required></textarea>
+        <button type="submit">문의하기</button>
+    </form>
+    <div id="contact-success" style="display:none; text-align:center; margin-top:20px;">
+    <div style="color:green; font-weight:bold; margin-bottom:10px;">문의가 완료되었습니다!</div>
+    <button id="confirmBtn" class="contact-form-btn">확인</button>
+</div>
+</section>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // 폼 제출 막기
+    document.getElementById('contactForm').style.display = 'none'; // 폼 숨기기
+    document.getElementById('contact-success').style.display = 'block'; // 메시지+버튼 보이기
+});
+
+document.getElementById('confirmBtn').addEventListener('click', function() {
+    window.location.reload(); // 새로고침
+});
+</script>
+
     <footer>
         <div class="footer-logo">단단투어 | 동남아 전문</div>
         <div class="footer-info">
