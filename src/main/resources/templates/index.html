@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +7,7 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">단단투어 <span style="font-size:0.6em; color:#1fd1c1; font-weight:700;">동남아 전문</span></div>
-            <nav>
-                <a href="#">홈</a>
-                <a href="#services">서비스</a>
-                <a href="#products">여행상품</a>
-                <a href="#contact">문의</a>
-            </nav>
-        </div>
-    </header>
+    <div th:replace="~{header :: header}"></div>
     <section class="banner">
         <div class="container banner-inner">
             <div class="banner-text">

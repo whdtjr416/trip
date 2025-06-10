@@ -25,4 +25,6 @@ public class HomeController {
     public String baliDetail() {
         return "bali-detail"; // templates/bali-detail.html
     }
+    
+   
 }
