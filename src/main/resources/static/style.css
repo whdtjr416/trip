@@ -1112,4 +1112,173 @@ h2 {
     background-color: #ccc;
     cursor: not-allowed;
 }
+/* 팝업 오버레이 */
+#popupOverlay.popup-overlay {
+    display: block; /* iframe 내에서는 기본적으로 표시 */
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.5); /* 배경 투명도 조정 */
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 팝업 박스 */
+#popup.popup {
+    background: #fff !important;
+    border-radius: 12px !important;
+    max-width: 350px !important;
+    width: 90% !important;
+    padding: 20px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25) !important;
+    text-align: center !important;
+    position: fixed !important;
+    top: 50% !important; /* 화면 중앙으로 이동 */
+    left: 50% !important; /* 화면 중앙으로 이동 */
+    transform: translate(-50%, -50%) !important; /* 중앙 정렬 */
+    z-index: 10000 !important;
+    border: 1px solid rgba(0, 191, 174, 0.4) !important;
+    pointer-events: auto !important;
+    margin: 0 !important;
+}
+
+/* 팝업 제목 */
+#popup.popup h2 {
+    font-size: 1.4em !important;
+    color: #00897b !important;
+    margin-bottom: 10px !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 6px rgba(0, 191, 174, 0.2) !important;
+}
+
+/* 팝업 내용 */
+#popup.popup p {
+    font-size: 0.95em !important;
+    color: #444 !important;
+    line-height: 1.5 !important;
+    margin-bottom: 15px !important;
+}
+
+/* 이벤트 배지 */
+#popup.popup .event-badge {
+    background: linear-gradient(90deg, #ff6f61 0%, #ff8a65 100%) !important;
+    color: #fff !important;
+    padding: 5px 10px !important;
+    border-radius: 20px !important;
+    font-size: 0.8em !important;
+    font-weight: 600 !important;
+    margin: 0 auto 10px !important;
+    display: inline-block !important;
+    box-shadow: 0 2px 5px rgba(255, 111, 97, 0.3) !important;
+}
+
+/* 강조 텍스트 */
+#popup.popup .highlight {
+    color: #ff5252 !important;
+    font-weight: 700 !important;
+    background: rgba(255, 82, 82, 0.1) !important;
+    padding: 0 3px !important;
+    border-radius: 3px !important;
+}
+
+/* 오퍼 상세 정보 */
+#popup.popup .offer-details {
+    text-align: left !important;
+    margin-bottom: 15px !important;
+    padding: 10px !important;
+    background: rgba(0, 191, 174, 0.05) !important;
+    border-radius: 8px !important;
+}
+
+#popup.popup .offer-details p {
+    margin: 5px 0 !important;
+    font-size: 0.85em !important;
+    color: #333 !important;
+}
+
+/* 팝업 액션 영역 */
+#popup.popup .popup-actions {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+}
+
+/* 체크박스 라벨 */
+#popup.popup .popup-actions label {
+    font-size: 0.85em !important;
+    color: #666 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+    cursor: pointer !important;
+}
+
+/* 닫기 버튼 */
+#popup.popup .close-btn {
+    background: linear-gradient(90deg, #00bfae 60%, #00c3a5 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 8px 20px !important;
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: background 0.2s, transform 0.2s !important;
+    box-shadow: 0 2px 8px rgba(0, 191, 174, 0.2) !important;
+}
+
+#popup.popup .close-btn:hover {
+    background: linear-gradient(90deg, #00c3a5 60%, #00bfae 100%) !important;
+    transform: translateY(-2px) scale(1.03) !important;
+}
+
+/* 팝업 닫기 X 버튼 */
+#popup.popup .popup-close-x {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: none !important;
+    border: none !important;
+    font-size: 1.2em !important;
+    color: #888 !important;
+    cursor: pointer !important;
+    transition: color 0.2s !important;
+}
+
+#popup.popup .popup-close-x:hover {
+    color: #ff5252 !important;
+}
+
+/* CTA 버튼 */
+#popup.popup .cta-button {
+    display: inline-block !important;
+    background: linear-gradient(90deg, #ff5252 0%, #ff4081 100%) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 10px 25px !important;
+    font-size: 1.1em !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s !important;
+    box-shadow: 0 4px 12px rgba(255, 82, 82, 0.3) !important;
+    margin-bottom: 15px !important;
+}
+
+#popup.popup .cta-button:hover {
+    background: linear-gradient(90deg, #ff4081 0%, #ff5252 100%) !important;
+    transform: translateY(-3px) scale(1.05) !important;
+    box-shadow: 0 6px 16px rgba(255, 82, 82, 0.5) !important;
+}
+
+#popup.popup .cta-button:active {
+    transform: translateY(1px) scale(0.98) !important;
+    box-shadow: 0 2px 8px rgba(255, 82, 82, 0.3) !important;
+}
 
