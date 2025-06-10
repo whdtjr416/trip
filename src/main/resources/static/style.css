@@ -510,7 +510,7 @@ nav span a {
 }
 
 
-/* ===== 상세페이지(예: bali-detail) 전용 ===== */
+/* ===== 상세페이지 ===== */
 /* 전체 배경 및 폰트 설정 */
 body {
     font-family: 'Noto Sans KR', '맑은 고딕', Arial, sans-serif;
@@ -693,6 +693,38 @@ tr:last-child td {
     background: linear-gradient(90deg, #00c3a5 60%, #00bfae 100%);
     transform: translateY(-2px) scale(1.03);
 }
+/* 목록으로 돌아가기 링크 스타일 */
+.back-link-container {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.back-link {
+    display: inline-block;
+    font-family: 'Noto Sans KR', '맑은 고딕', Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #009688;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px #00bfae22;
+    background: #e0f7fa;
+}
+
+.back-link:hover {
+    background: #b2dfdb;
+    color: #00695c;
+    transform: translateY(-2px);
+}
+
+.back-icon {
+    font-weight: bold;
+    margin-right: 6px;
+}
+
 
 .notice {
     font-size: 0.98em;
@@ -769,7 +801,7 @@ footer {
   
 
 /* ===== 회원가입 폼 스타일 ===== */
-/* ===== 회원가입 폼 스타일 ===== */
+
 .signup-container {
     max-width: 600px;
     margin: 40px auto;
@@ -1020,3 +1052,64 @@ footer {
     margin-bottom: 10px;
 }
 }
+/* ===== 관리 페이===== */
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #00bfae;
+}
+
+.delete-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}
+.confirm-btn {
+    background-color: #00bfae;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.confirm-btn:hover:not(:disabled) {
+    background-color: #009688;
+}
+
+.confirm-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+

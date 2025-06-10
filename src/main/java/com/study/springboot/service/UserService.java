@@ -1,12 +1,15 @@
 package com.study.springboot.service;
 
+import java.util.List;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
 import com.study.springboot.model.User;
 import com.study.springboot.repository.UserRepository;
 
@@ -55,5 +58,15 @@ public class UserService implements UserDetailsService {
                 .password(user.getPassword())
                 .roles(user.getRole() != null ? user.getRole() : "USER") // DB에서 역할 조회, 없으면 기본값 "USER"
                 .build();
+    }
+
+    // 모든 회원 정보를 조회하는 메서드 추가
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
+    }
+
+    // 회원 삭제 메서드 추가
+    public void deleteUser(Long id) {
+        userRepository.deleteById(id);
     }
 }

@@ -49,70 +49,55 @@
             </div>
         </div>
     </section>
-   <section id="products">
-    <h2>인기 동남아 여행 상품</h2>
-    <div class="products">
-        <a href="/thailand-detail" class="product-link">
-            <div class="product-card">
-                <img src="/image/image1.png" alt="태국 방콕/파타야" class="product-img">
-                <div class="product-info">
-                    <div class="product-title">태국 방콕·파타야 5일</div>
-                    <div class="product-desc">리버크루즈, 마사지, 수상시장, 맛집투어까지!</div>
+    <section id="products">
+        <h2>인기 동남아 여행 상품</h2>
+        <div class="products">
+            <a href="/thailand-detail" class="product-link">
+                <div class="product-card">
+                    <img src="/image/image1.png" alt="태국 방콕/파타야" class="product-img">
+                    <div class="product-info">
+                        <div class="product-title">태국 방콕·파타야 5일</div>
+                        <div class="product-desc">리버크루즈, 마사지, 수상시장, 맛집투어까지!</div>
+                    </div>
                 </div>
+            </a>
+            <div class="product-card">
+                <a href="/danang-detail" class="product-link">
+                    <div class="product-card">
+                        <img src="/image/image2.png" alt="베트남 다낭" class="product-img">
+                        <div class="product-info">
+                            <div class="product-title">베트남 다낭 5일</div>
+                            <div class="product-desc">미케비치, 바나힐, 호이안 야경, 리조트 숙박</div>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </a>
-        <div class="product-card">
-            <a href="/danang-detail" class="product-link">
-    			<div class="product-card">
-    	    <img src="/image/image2.png" alt="베트남 다낭" class="product-img">
-        		<div class="product-info">
-            <div class="product-title">베트남 다낭 5일</div>
-            <div class="product-desc">미케비치, 바나힐, 호이안 야경, 리조트 숙박</div>
+            <div class="product-card">
+                <a href="/bali-detail" class="product-link">
+                    <div class="product-card">
+                        <img src="/image/image3.png" alt="발리" class="product-img">
+                        <div class="product-info">
+                            <div class="product-title">발리 풀빌라 허니문 6일</div>
+                            <div class="product-desc">풀빌라, 스파, 해양스포츠, 발리 전통체험</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-    </div>
-</a>
-        </div>
-        <div class="product-card">
-            <a href="/bali-detail" class="product-link">
-    <div class="product-card">
-        <img src="/image/image3.png" alt="발리" class="product-img">
-        <div class="product-info">
-            <div class="product-title">발리 풀빌라 허니문 6일</div>
-            <div class="product-desc">풀빌라, 스파, 해양스포츠, 발리 전통체험</div>
-        </div>
-    </div>
-</a>
-        </div>
-    </div>
-</section>
-
-
+    </section>
     <section id="contact">
-    <h2>상담/예약 문의</h2>
-    <form class="contact-form" id="contactForm">
-        <input type="text" name="name" placeholder="이름" required>
-        <input type="text" name="phone" placeholder="연락처" required>
-        <textarea name="message" rows="4" placeholder="문의 내용을 입력하세요" required></textarea>
-        <button type="submit">문의하기</button>
-    </form>
-    <div id="contact-success" style="display:none; text-align:center; margin-top:20px;">
-    <div style="color:green; font-weight:bold; margin-bottom:10px;">문의가 완료되었습니다!</div>
-    <button id="confirmBtn" class="contact-form-btn">확인</button>
-</div>
-</section>
-
-<script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // 폼 제출 막기
-    document.getElementById('contactForm').style.display = 'none'; // 폼 숨기기
-    document.getElementById('contact-success').style.display = 'block'; // 메시지+버튼 보이기
-});
-
-document.getElementById('confirmBtn').addEventListener('click', function() {
-    window.location.reload(); // 새로고침
-});
-</script>
-
+        <h2>상담/예약 문의</h2>
+        <form class="contact-form" id="contactForm" action="/submitInquiry" method="post">
+            <input type="text" name="name" placeholder="이름" required>
+            <input type="text" name="phone" placeholder="연락처" required>
+            <textarea name="message" rows="4" placeholder="문의 내용을 입력하세요" required></textarea>
+            <button type="submit">문의하기</button>
+        </form>
+        <div id="contact-success" style="display:none; text-align:center; margin-top:20px;">
+            <div style="color:green; font-weight:bold; margin-bottom:10px;">문의가 완료되었습니다!</div>
+            <button id="confirmBtn" class="contact-form-btn">확인</button>
+        </div>
+    </section>
     <footer>
         <div class="footer-logo">단단투어 | 동남아 전문</div>
         <div class="footer-info">
@@ -120,5 +105,6 @@ document.getElementById('confirmBtn').addEventListener('click', function() {
             Copyright © 2025 단단투어 All rights reserved.
         </div>
     </footer>
+    <script src="/js/contact.js"></script>
 </body>
 </html>
