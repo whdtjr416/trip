@@ -4,6 +4,20 @@
 
 ---
 
+## 📋 목차
+
+- [프로젝트 개요](#프로젝트-개요)
+- [주요 기능](#주요-기능)
+  - [1. 메인 페이지](#1-메인-페이지)
+  - [2. 상세 페이지](#2-상세-페이지)
+  - [3. 회원 기능](#3-회원-기능)
+  - [4. 관리자 페이지](#4-관리자-페이지)
+  - [5. AI 비서 (챗봇)](#5-ai-비서-챗봇)
+- [기술 스택](#기술-스택)
+- [연락처](#연락처)
+
+---
+
 ## 📋 프로젝트 개요
 
 단단투어는 여행을 계획하는 사용자와 관리자를 연결하는 웹 애플리케이션입니다. 주요 기능은 다음과 같습니다:
@@ -18,6 +32,7 @@
   - 전체 회원 정보 조회 및 회원 삭제.
   - 접수된 문의 확인 및 관리.
 - **보안**: 로그인한 회원만 상세 페이지 접근 가능.
+- **AI 비서**: 사용자와의 대화를 통해 동남아 여행 관련 정보를 제공하고, 맞춤형 추천을 수행하는 챗봇 기능.
 
 ---
 
@@ -28,47 +43,56 @@
 - **상세 페이지 링크**: 다양한 여행 패키지로 이동.
 - **상담 접수**: 사용자가 문의 사항을 접수할 수 있는 폼 제공.
 - **헤더 스크롤**: 헤더 메뉴 클릭 시 해당 섹션으로 부드럽게 스크롤 이동.
-  !팝업 공지!
   - 24시간 동안 보지 않음 기능
   - 접수 버튼 누르면 바로 이동
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 00 22" src="https://github.com/user-attachments/assets/9c53addc-f472-4dc1-967b-49178c9bd035" />
-  ! 메인 화면!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 00 52" src="https://github.com/user-attachments/assets/d8699b4c-cc4c-4c8c-94fe-42ab961c3be8" />
-  ! 회원 로그인 성공 화면!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 19 23" src="https://github.com/user-attachments/assets/0dd73ffc-080f-48ba-b9a4-304736c2730e" />
-  ! 관리자 로그인 성공 화면!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 18 41" src="https://github.com/user-attachments/assets/4aa33427-8e72-4fa1-939d-870e81f40891" />
-  !서비스!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 01 03" src="https://github.com/user-attachments/assets/e36eb946-22bf-40ac-82ae-06bb2e153fb2" />
-  !상세 페이지! 
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 01 20" src="https://github.com/user-attachments/assets/72f85727-226f-41b5-84a2-8973e639bdee" />
-  !점수,문의!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 01 32" src="https://github.com/user-attachments/assets/410ec538-8fa8-4538-9c3d-32a3d5f779fd" />
-  !접수,문의 성공 화면!
-<img width="1337" alt="스크린샷 2025-06-12 오전 3 18 19" src="https://github.com/user-attachments/assets/97ed995c-f66a-4a3e-b549-23fd4c45ec9b" />
+  <!-- 이미지 삽입 위치: 팝업 공지 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 00 22" src="https://github.com/user-attachments/assets/9c53addc-f472-4dc1-967b-49178c9bd035" /> -->
+  <!-- 이미지 삽입 위치: 메인 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 00 52" src="https://github.com/user-attachments/assets/d8699b4c-cc4c-4c8c-94fe-42ab961c3be8" /> -->
+  <!-- 이미지 삽입 위치: 회원 로그인 성공 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 19 23" src="https://github.com/user-attachments/assets/0dd73ffc-080f-48ba-b9a4-304736c2730e" /> -->
+  <!-- 이미지 삽입 위치: 관리자 로그인 성공 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 18 41" src="https://github.com/user-attachments/assets/4aa33427-8e72-4fa1-939d-870e81f40891" /> -->
+  <!-- 이미지 삽입 위치: 서비스 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 01 03" src="https://github.com/user-attachments/assets/e36eb946-22bf-40ac-82ae-06bb2e153fb2" /> -->
+  <!-- 이미지 삽입 위치: 상세 페이지 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 01 20" src="https://github.com/user-attachments/assets/72f85727-226f-41b5-84a2-8973e639bdee" /> -->
+  <!-- 이미지 삽입 위치: 점수, 문의 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 01 32" src="https://github.com/user-attachments/assets/410ec538-8fa8-4538-9c3d-32a3d5f779fd" /> -->
+  <!-- 이미지 삽입 위치: 접수, 문의 성공 화면 스크린샷 -->
+  <!-- <img width="1337" alt="스크린샷 2025-06-12 오전 3 18 19" src="https://github.com/user-attachments/assets/97ed995c-f66a-4a3e-b549-23fd4c45ec9b" /> -->
 
 ### 2. 상세 페이지
-
 - **여행 패키지 정보**: 패키지 상세 내용과 일정 표시.
 - **접근 제한**: 로그인한 회원만 접근 가능.
- !상세 일정!
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 04 17" src="https://github.com/user-attachments/assets/4e33579f-ba7a-4ffa-b9f8-b2a0a3193484" />
-
+  <!-- 이미지 삽입 위치: 상세 일정 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 04 17" src="https://github.com/user-attachments/assets/4e33579f-ba7a-4ffa-b9f8-b2a0a3193484" /> -->
 
 ### 3. 회원 기능
 - **로그인/회원가입**: 사용자 인증 및 계정 생성.
-<img width="920" alt="스크린샷 2025-06-12 오전 3 13 34" src="https://github.com/user-attachments/assets/ae123b58-7970-4788-aa53-f605fdc28b71" />
-<img width="866" alt="스크린샷 2025-06-12 오전 3 14 02" src="https://github.com/user-attachments/assets/ddce5e74-d0ef-4c4d-a209-25ca5c8dba67" />
-
+  <!-- 이미지 삽입 위치: 로그인 화면 스크린샷 -->
+  <!-- <img width="920" alt="스크린샷 2025-06-12 오전 3 13 34" src="https://github.com/user-attachments/assets/ae123b58-7970-4788-aa53-f605fdc28b71" /> -->
+  <!-- 이미지 삽입 위치: 회원가입 화면 스크린샷 -->
+  <!-- <img width="866" alt="스크린샷 2025-06-12 오전 3 14 02" src="https://github.com/user-attachments/assets/ddce5e74-d0ef-4c4d-a209-25ca5c8dba67" /> -->
 - **마이페이지**: 개인정보 조회 및 수정 기능.
-<img width="930" alt="스크린샷 2025-06-12 오전 3 16 25" src="https://github.com/user-attachments/assets/df3c17e3-0dd0-462a-b9cf-2cd1956fc866" />
+  <!-- 이미지 삽입 위치: 마이페이지 화면 스크린샷 -->
+  <!-- <img width="930" alt="스크린샷 2025-06-12 오전 3 16 25" src="https://github.com/user-attachments/assets/df3c17e3-0dd0-462a-b9cf-2cd1956fc866" /> -->
 
 ### 4. 관리자 페이지
 - **회원 관리**: 전체 회원 정보 조회 및 삭제 기능.
-- 
 - **문의 관리**: 접수된 상담 문의 확인 및 처리.
+  <!-- 이미지 삽입 위치: 관리자 페이지 화면 스크린샷 -->
+  <!-- <img width="1470" alt="스크린샷 2025-06-12 오전 3 18 50" src="https://github.com/user-attachments/assets/4103b354-6b57-4bec-8af9-7f393ae7afec" /> -->
 
-<img width="1470" alt="스크린샷 2025-06-12 오전 3 18 50" src="https://github.com/user-attachments/assets/4103b354-6b57-4bec-8af9-7f393ae7afec" />
+### 5. AI 비서 (챗봇)
+- **기능 개요**: 단단투어 AI 비서는 동남아 여행에 대한 정보를 제공하며, 사용자의 질문에 따라 맞춤형 여행 추천, 비용 안내, 일정 제안 등을 수행합니다. 또한 예약 문의와 상담을 지원합니다.
+- **주요 특징**:
+  - 동남아 주요 지역(태국, 베트남, 인도네시아 등) 및 세부 도시(방콕, 다낭, 발리 등)에 대한 상세 정보 제공.
+  - 여행 스타일(허니문, 가족 여행, 배낭여행 등)에 맞춘 추천.
+  - 사용자와의 대화를 자연스럽게 이어가기 위한 꼬리물기 질문 포함.
+  - 챗봇 UI를 통해 실시간 대화 가능.
+  <!-- 이미지 삽입 위치: AI 비서 챗봇 UI 스크린샷 (필요 시 추가) -->
+  <!-- <img width="1470" alt="AI 비서 챗봇 UI" src="https://github.com/user-attachments/assets/추가이미지주소" /> -->
 
 ---
 
@@ -104,6 +128,5 @@
 프로젝트에 대한 문의 사항이 있으시면 아래로 연락 주세요:
 
 - 이메일: wjdwhdtjr416@naver.com
-
 
 **단단투어**와 함께 멋진 여행을 계획해 보세요! 🌴
