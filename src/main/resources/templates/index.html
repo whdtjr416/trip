@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<!-- AI 여행 비서 챗봇 UI -->
+<div id="chatbot-icon" class="chatbot-icon">
+    <span>💬</span>
+</div>
+<div id="chatbot-window" class="chatbot-window" style="display: none;">
+    <div class="chatbot-header">
+        <h3>단단투어 AI 비서</h3>
+        <button id="close-chatbot">X</button>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages">
+        <div class="message bot">안녕하세요! 단단투어 AI 비서입니다. 동남아 여행에 대해 궁금한 점을 물어보세요!</div>
+    </div>
+    <div class="chatbot-input">
+        <input type="text" id="user-input" placeholder="질문을 입력하세요..." />
+        <button id="send-message">보내기</button>
+    </div>
+</div>
+
+<!-- JavaScript 파일 연결 -->
+<script src="/js/chatbot.js"></script>
+
     <div th:replace="~{header :: header}"></div>
     <section class="banner">
         <div class="container banner-inner">
@@ -96,6 +117,19 @@
         <div id="contact-success" style="display:none; text-align:center; margin-top:20px;">
             <div style="color:green; font-weight:bold; margin-bottom:10px;">문의가 완료되었습니다!</div>
             <button id="confirmBtn" class="contact-form-btn">확인</button>
+        </div>
+    </section>
+    <section class="weather-section">
+        <h2>오늘의 날씨 정보</h2>
+        <div th:if="${weather != null}">
+            <p><strong>도시:</strong> <span th:text="${weather.city}"></span></p>
+            <p><strong>온도:</strong> <span th:text="${weather.temperature} + ' °C'"></span></p>
+            <p><strong>날씨 상태:</strong> <span th:text="${weather.description}"></span></p>
+            <p><strong>습도:</strong> <span th:text="${weather.humidity} + '%'"></span></p>
+            <p><strong>풍속:</strong> <span th:text="${weather.windSpeed} + ' m/s'"></span></p>
+        </div>
+        <div th:if="${weather == null}">
+            <p>날씨 정보를 불러오는 데 실패했습니다.</p>
         </div>
     </section>
     <footer>

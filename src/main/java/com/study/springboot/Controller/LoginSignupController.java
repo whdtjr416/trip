@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.study.springboot.model.User;
 import com.study.springboot.service.UserService;
+import org.springframework.security.core.Authentication;
 
 @Controller
 public class LoginSignupController {
@@ -28,9 +29,6 @@ public class LoginSignupController {
         }
         return "login";
     }
-
-    // Spring Security가 /login 처리를 하므로 POST 메서드 제거
-    // @PostMapping("/login") 제거됨
 
     @GetMapping("/signup")
     public String signupPage() {
@@ -98,5 +96,40 @@ public class LoginSignupController {
         } else {
             return "사용 가능한 아이디입니다.";
         }
+    }
+
+    // 마이페이지 조회
+    @GetMapping("/mypage")
+    public String mypage(Model model, Authentication authentication) {
+        String username = authentication.getName();
+        User user = userService.findByUsername(username).orElse(null);
+        if (user == null) {
+            return "redirect:/login";
+        }
+        model.addAttribute("user", user);
+        return "mypage";
+    }
+
+    // 개인정보 수정
+    @PostMapping("/mypage/update")
+    public String updateProfile(
+        @RequestParam(name = "email") String email, 
+        @RequestParam(name = "password", required = false) String password, 
+        Authentication authentication, 
+        Model model
+    ) {
+        String username = authentication.getName();
+        User user = userService.findByUsername(username).orElse(null);
+        if (user == null) {
+            return "redirect:/login";
+        }
+        user.setEmail(email);
+        if (password != null && !password.isEmpty()) {
+            userService.updatePassword(user, password);
+        }
+        userService.updateUser(user);
+        model.addAttribute("message", "개인정보가 성공적으로 수정되었습니다!");
+        model.addAttribute("user", user);
+        return "mypage";
     }
 }

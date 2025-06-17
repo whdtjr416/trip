@@ -69,4 +69,15 @@ public class UserService implements UserDetailsService {
     public void deleteUser(Long id) {
         userRepository.deleteById(id);
     }
+
+    // 사용자 정보 업데이트 메서드 추가
+    public User updateUser(User user) {
+        return userRepository.save(user);
+    }
+
+    //비밀번호 업데이트 메서드 추가
+    public void updatePassword(User user, String newPassword) {
+        user.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(user);
+    }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>베트남 다낭 5일 여행 상세</title>
@@ -23,6 +23,17 @@
             <li>4일차: 리조트 자유시간, 스파 체험</li>
             <li>5일차: 다낭 시내 관광, 인천 귀환</li>
         </ol>
+        <!-- 날씨 정보 추가 -->
+        <h2>현재 다낭 날씨</h2>
+        <div th:if="${weather != null}">
+            <p><strong>온도:</strong> <span th:text="${weather.temperature} + ' °C'"></span></p>
+            <p><strong>날씨 상태:</strong> <span th:text="${weather.description}"></span></p>
+            <p><strong>습도:</strong> <span th:text="${weather.humidity} + '%'"></span></p>
+            <p><strong>풍속:</strong> <span th:text="${weather.windSpeed} + ' m/s'"></span></p>
+        </div>
+        <div th:if="${weather == null}">
+            <p>날씨 정보를 불러오는 데 실패했습니다.</p>
+        </div>
         <a href="/" class="back-link">← 목록으로 돌아가기</a>
     </section>
 </body>

@@ -14,13 +14,15 @@
                 <a href="/">홈</a>
                 <a href="#services">서비스</a>
                 <a href="#products">문의</a>
-                <!-- 로그인 여부에 따라 다른 내용 표시 -->
+                <!--  로그인 여부에 따라 다른 내용 표시 -->
                 <span sec:authorize="isAuthenticated()">
                     <span th:text="${#authentication.principal.username} + '님 반갑습니다'"></span>
-                    <!-- 관리자 역할이 있는 경우 관리자 페이지 링크 표시 -->
+                    <!-- ️ 관리자 역할이 있는 경우 관리자 페이지 링크 표시 -->
                     <span sec:authorize="hasRole('ADMIN')">
                         <a href="/admin">관리자 페이지</a>
                     </span>
+                    <!--  마이페이지 링크 추가 -->
+                    <a href="/mypage">마이페이지</a>
                     <a href="/logout">로그아웃</a>
                 </span>
                 <span sec:authorize="isAnonymous()">
